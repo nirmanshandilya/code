@@ -1,0 +1,11 @@
+# Folders
+.cph/
+.vscode/
+
+# Files that start with
+a.out
+random.*
+
+# Files that end with
+*input.txt
+*output.txt
