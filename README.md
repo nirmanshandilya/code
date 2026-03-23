@@ -9,7 +9,7 @@
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
 
-[![GitHub followers](https://img.shields.io/github/followers/nirmanshandilya?style=social)](https://github.com/YOUR_USERNAME)
+[![GitHub followers](https://img.shields.io/github/followers/nirmanshandilya?style=social)](https://github.com/nirmanshandilya)
 
 </div>
 
