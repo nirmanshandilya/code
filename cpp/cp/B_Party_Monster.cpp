@@ -15,7 +15,19 @@ using namespace std;
 
 void solve()
 {
-    
+    long n;
+    cin >> n;
+    string s;
+    cin >> s;
+    int count1 = 0, count2 = 0;
+    for (auto &it : s)
+    {
+        if (it == '(')
+            count1++;
+        else
+            count2++;
+    }
+    count1 == count2 ? cout << "YES\n" : cout << "NO\n";
 }
 
 int main()

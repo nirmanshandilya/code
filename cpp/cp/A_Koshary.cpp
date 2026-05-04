@@ -15,7 +15,16 @@ using namespace std;
 
 void solve()
 {
-    
+    int x, y;
+    cin >> x >> y;
+    bool xis = false, yis = false;
+    if (x % 2 == 0)
+        xis = true;
+    if (y % 2 == 0)
+        yis = true;
+    if(xis || yis)
+        cout<<"YES\n";
+    else cout<<"NO\n";
 }
 
 int main()

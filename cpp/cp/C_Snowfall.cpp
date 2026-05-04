@@ -15,7 +15,29 @@ using namespace std;
 
 void solve()
 {
-    
+    int n;
+    cin >> n;
+    vi a(n);
+    FOR(i, n)
+    cin >> a[i];
+    vi divby6;
+    vi notdivby6;
+    for (auto &it : a)
+    {
+        if (it % 6 != 0)
+            notdivby6.push_back(it);
+        else
+            divby6.push_back(it);
+    }
+    for (auto &it : divby6)
+    {
+        notdivby6.push_back(it);
+    }
+    for (auto &it : notdivby6)
+    {
+        cout << it << " ";
+    }
+    cout << "\n";
 }
 
 int main()
